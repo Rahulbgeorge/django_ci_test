@@ -15,4 +15,4 @@ hooks:
       timeout: 300
       runas: root
   ApplicationStart:
-    -location: helper_scripts/app_start.sh
+    - location: helper_scripts/app_start.sh
