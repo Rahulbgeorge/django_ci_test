@@ -1,0 +1,1 @@
+/home/ubuntu/venv/bin/python3 /home/ubuntu/django_ci_test/manage.py runserver
