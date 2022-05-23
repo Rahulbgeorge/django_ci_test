@@ -6,6 +6,7 @@ files:
 hooks:
   ApplicationStop:
     - location: helper_scripts/app_stop.sh
+      timeout: 300
   BeforeInstall:
     - location: helper_scripts/app_install.sh
       runas: root
