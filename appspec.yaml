@@ -8,6 +8,7 @@ hooks:
     - location: helper_scripts/app_stop.sh
   BeforeInstall:
     - location: helper_scripts/app_install.sh
+      runas: root
   AfterInstall:
     - location: helper_scripts/app_post_install.sh
       timeout: 300
