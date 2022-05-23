@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/
+    destination: /home/ubuntu/django_ci_test
 hooks:
   ApplicationStop:
     - location: helper_scripts/app_stop.sh
